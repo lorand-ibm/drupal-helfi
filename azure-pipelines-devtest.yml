@@ -33,6 +33,6 @@ resources:
     name: sonarcloud-automation-test/sonarcloud-automation-test-pipelines
 
 extends:
-  template: azure-pipelines-sonarcloud-automation-test-devtest.yml@sonarcloud-automation-test-pipelines
+  template: azure-pipelines-sonar-automation-test2-devtest.yml@sonarcloud-automation-test-pipelines
 
 
