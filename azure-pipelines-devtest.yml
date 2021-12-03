@@ -27,12 +27,12 @@ pool: Default
 resources:
   repositories:
   # Azure DevOps repository
-  - repository: unique-appname-test-pipelines
+  - repository: unittest1-pipelines
     type: git
     # project/repository
-    name: unique-appname-test/unique-appname-test-pipelines
+    name: unittest1/unittest1-pipelines
 
 extends:
-  template: azure-pipelines-appname-without-var-devtest.yml@unique-appname-test-pipelines
+  template: azure-pipelines-drupal-service-test-devtest.yml@unittest1-pipelines
 
 
