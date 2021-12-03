@@ -33,6 +33,6 @@ resources:
     name: unittest1/unittest1-pipelines
 
 extends:
-  template: azure-pipelines-drupal-service-test-devtest.yml@unittest1-pipelines
+  template: azure-pipelines-drupal-service-test4-devtest.yml@unittest1-pipelines
 
 
