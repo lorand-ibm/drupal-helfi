@@ -9,7 +9,7 @@ command:
       options:
         # Set a predetermined username and password when using site-install.
         account-name: 'helfi-admin'
-
+awfresadgfgh
 sql:
   # List of tables whose *data* is skipped by the 'sql-dump' and 'sql-sync'
   # commands when the "--structure-tables-key=common" option is provided.
