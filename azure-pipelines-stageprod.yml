@@ -35,3 +35,18 @@ resources:
 
 extends:
   template: azure-pipelines-kasko-content-migration-stageprod.yml@kasko-content-migration-pipelines
+
+
+- task: SonarCloudPrepare@1
+  inputs:
+    SonarCloud: 'sonarcloud'
+    organization: 'city-of-helsinki'
+    scannerMode: 'MSBuild'
+    projectKey: 'asd'
+    projectName: 'ads'
+
+- task: SonarCloudAnalyze@1
+
+- task: SonarCloudPublish@1
+  inputs:
+    pollingTimeoutSec: '300'
