@@ -1,5 +1,5 @@
 PHONY :=
-#PROJECT_DIR := $(dir $(lastword $(MAKEFILE_LIST)))
+PROJECT_DIR := $(dir $(lastword $(MAKEFILE_LIST)))
 
 # Include project env vars (if exists)
 -include .env
