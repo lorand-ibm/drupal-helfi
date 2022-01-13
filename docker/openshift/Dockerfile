@@ -14,5 +14,3 @@ RUN mkdir /crons
 COPY docker/openshift/crons/ /crons
 RUN chmod +x /crons/*
 
-#Testing sonarcloud
-PASSWORD="12345"
